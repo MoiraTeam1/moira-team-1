@@ -48,4 +48,8 @@ basic.forever(function () {
         Level = 3
         basic.showString("L3")
     }
+    if (game.score() == 9) {
+        Level = 4
+        basic.showString("L4")
+    }
 })
